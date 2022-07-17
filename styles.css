@@ -1,0 +1,158 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    height: 1080px;
+    width: 720px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+   
+}
+
+
+.subtitle{
+    margin-top: 21px;
+}
+
+#hero{
+    width: 720px;
+    height: 343px;
+    background-image: url("images/torshov.jpg");
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+    background-color: #1D3557;
+    border-radius: 10px;
+    width: 225px;
+    height: 42px;
+    margin: 0 auto;
+    
+    
+}
+
+.subtitle{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: #457B9D;
+    width: 412px;
+    height: 52px;
+    border-radius: 10px;
+}
+
+.activities{
+    
+    background-color: #F1FAEE;
+    font-family: 'Arial';
+    color: #1D3557;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    display: flex;
+    height: 343px;
+    flex-direction: column;
+      
+}
+
+.top-title{
+        padding: 21px 0 21px 0 ;
+
+}
+
+.activity-title{
+    font-weight: bold;
+    padding: 18px 25px 16px 34px;
+}
+.activity-text{
+    padding: 0 25px 58px 34px;
+}
+
+.columns {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center; 
+}
+   
+
+.guide-body{
+
+    width: 720px;
+    height: 394px;
+    background-color: #ffffff;
+    
+}
+
+#guide-card{
+    width: 400px;
+    height: 294px;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+    display: flex;
+    flex-direction: row-reverse; 
+    margin: 50px auto;  
+    
+    }
+
+.guide-text{
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+padding: 23px 13px;
+    
+   
+}
+
+.guide-title{
+    padding: 49px 0 14px 0;
+}
+
+
+
+#guide-img{
+    width: 180px;
+    height: 249px;
+    padding: 23px 13px;
+    border-radius: 10px;
+
+
+}
