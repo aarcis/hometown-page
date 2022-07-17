@@ -1,12 +1,3 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
 
 * {
     margin: 0;
@@ -34,7 +25,7 @@ img {
 #hero{
     width: 720px;
     height: 343px;
-    background-image: url("images/torshov.jpg");
+    background-image: url("torshov.jpg");
     background-size: cover; 
     display: flex;
     flex-direction: column;
